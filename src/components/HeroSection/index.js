@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { getDynamicComponent } from '@stackbit/components/components-registry';
 import Badge from '@stackbit/components/Badge';
 import Action from '@stackbit/components/Action';
-import InlineMarkdown from '../InlineMarkdown';
+import InlineMarkdown from '@stackbit/components/InlineMarkdown';
 
 export default function HeroSection(props) {
     const colors = props.colors || 'colors-a';
