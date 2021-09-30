@@ -2,7 +2,7 @@ import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 import { getDynamicComponent } from '@stackbit/components/components-registry';
-import Badge from '@stackbit/components/Badge';
+import Badge from '@stackbit/components/components/Badge';
 import Action from '@stackbit/components/Action';
 import InlineMarkdown from '@stackbit/components/InlineMarkdown';
 
