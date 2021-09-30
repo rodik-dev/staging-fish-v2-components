@@ -226,6 +226,7 @@ function heroBody(props) {
                     <InlineMarkdown>{props.title}</InlineMarkdown>
                 </h2>
             )}
+            <h1>YO</h1>
             {props.text && (
                 <Markdown options={{ forceBlock: true }} className="md:text-lg" data-sb-field-path=".text">
                     {props.text}
